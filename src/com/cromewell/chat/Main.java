@@ -21,6 +21,7 @@ public class Main extends Application {
         loader.setLocation(Main.class.getResource("view/ClientView.fxml"));
         Parent root = loader.load();
         primaryStage.setTitle("Chat");
+        primaryStage.setResizable(false);
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
