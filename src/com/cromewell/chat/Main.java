@@ -18,7 +18,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(Main.class.getResource("view"+File.separator+"ClientView.fxml"));
+        loader.setLocation(Main.class.getResource("view/ClientView.fxml"));
         Parent root = loader.load();
         primaryStage.setTitle("Chat");
         primaryStage.setScene(new Scene(root));
